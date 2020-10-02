@@ -11,3 +11,4 @@ Guess a number between 1-100
 * Guessing numeric counter
 * All guessed numbers output field
 * Text comments about guesses
+* GREAT animation at the End
