@@ -5,11 +5,13 @@
     <link rel="shortcut icon" href="#">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Guess a number!</title>
     <link rel="stylesheet" href="style/style.css">
     <script src="script.js"></script>
 </head>
 <body>
+    <div style="position: absolute; width: 100vw; height: 100vh; z-index: -1;" id="layer1" 
+        display="inline-block" align="center" vertical-align="middle">Great !</div>
     <div id="gameArea">
         <table width="100%">
         <tr>
@@ -32,7 +34,7 @@
                 <p id="alerts">Let's go!</p>
                 <p id="guessed">Guessed: </p>
                 <p id="guesses">Guesses: </p>
-                <button onclick="window.location.reload(); hello()" id="btnNew">NEW GAME</button>                
+                <button onclick="window.location.reload(); hello()" id="btnNew" style="z-index: 10">NEW GAME</button>                
             </td>
             <td id="columnThree" align="left" width="20%">                
                 <div id="biggest">... 100</div>                

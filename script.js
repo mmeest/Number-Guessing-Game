@@ -28,9 +28,11 @@ function compare(){
         } else {
             document.getElementById("alerts").innerHTML = "Good work, You guessed right!";
             document.getElementById("gameArea").style.backgroundImage = 
-                "radial-gradient(rgb(124, 252, 0) 50%, rgb(50, 205, 50) 50%)";
+                "radial-gradient(rgb(124, 252, 0), rgb(20, 205, 90))";
             document.getElementById("userInput").remove();
-            document.getElementById("btnOk").style.visibility = "hidden";
+            document.getElementById("btnOk").style.visibility = "hidden";     
+            
+            addAnimation();
         }
         guessed += data.toString() + "; ";
         document.getElementById("guessed").innerHTML = guessed;
@@ -42,6 +44,18 @@ function compare(){
         return;
     }
 
+}
+
+function addAnimation() {
+    document.getElementById("layer1").style.zIndex = "1";
+    document.getElementById("layer1").classList.add("animation");
+
+    setTimeout(removeAnimation, 3000);
+} 
+
+function removeAnimation(){
+    document.getElementById("layer1").style.zIndex = "-1";
+    document.getElementById("layer1").classList.remove = "animation";
 }
 
 // clear input field
