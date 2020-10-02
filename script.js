@@ -40,20 +40,20 @@ function compare(){
         document.getElementById("guesses").innerHTML = "Guesses: " + guesses;
     }
     else{
-        /* if alert("data is not an integer") */
         return;
     }
 
 }
 
 function addAnimation() {
+    document.getElementById("btnNew").style.visibility = "hidden";
     document.getElementById("layer1").style.zIndex = "1";
     document.getElementById("layer1").classList.add("animation");
-
     setTimeout(removeAnimation, 3000);
 } 
 
 function removeAnimation(){
+    document.getElementById("btnNew").style.visibility = "visible";
     document.getElementById("layer1").style.zIndex = "-1";
     document.getElementById("layer1").classList.remove = "animation";
 }

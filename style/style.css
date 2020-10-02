@@ -52,7 +52,7 @@ button{
 
 @keyframes goodWork{
     0% {font-size: 1px; opacity: 1;}
-    100% {font-size: 14em; opacity: 0.2}
+    100% {font-size: 14em; opacity: 0}
 }
 .animation{
     animation-name: goodWork;
