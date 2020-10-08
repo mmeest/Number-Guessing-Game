@@ -3,6 +3,8 @@
 # Number-Guessing-Game
 Guess a number between 1-100
 
+![](Screen.gif)
+
 ## Features
 * Text input field that detects input values
 * Use 'Enter' key as OK button
