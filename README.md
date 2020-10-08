@@ -15,4 +15,5 @@ Guess a number between 1-100
 * All guessed numbers output field
 * Text comments about guesses
 * GREAT animation at the End
+
 ![footer](https://capsule-render.vercel.app/api?type=slice&color=auto&height=130&section=footer)
