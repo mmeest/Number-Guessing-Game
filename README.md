@@ -1,3 +1,4 @@
+![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=130&section=header&text=Number%20guessing%20game&fontSize=30&fontAlign=80)
 <img src="Screenshot.jpg" width="500px">
 
 # Number-Guessing-Game
@@ -14,3 +15,4 @@ Guess a number between 1-100
 * All guessed numbers output field
 * Text comments about guesses
 * GREAT animation at the End
+![footer](https://capsule-render.vercel.app/api?type=slice&color=auto&height=130&section=footer)
